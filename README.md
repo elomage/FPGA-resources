@@ -1,4 +1,4 @@
-This is my place for FPGA related resources, such as template UCF files.
+This is a place for FPGA related resources, such as template UCF files.
 
 Mostly I am working with Xilinx FPGAs for teaching an fun.
 The usual suspects are:
