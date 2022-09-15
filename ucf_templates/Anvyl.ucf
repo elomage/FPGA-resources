@@ -7,24 +7,24 @@
     #TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
 
 ## Switches
-    #NET "SW0"  LOC = V5 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L13N_3, Sch name = SW0
-    #NET "SW1"  LOC = U4 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L18P_3, Sch name = SW1
-    #NET "SW2"  LOC = V3 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L18N_3, Sch name = SW2
-    #NET "SW3"  LOC = P4 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L21P_3, Sch name = SW3
-    #NET "SW4"  LOC = R4 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L21N_3, Sch name = SW4
-    #NET "SW5"  LOC = P6 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L22P_3, Sch name = SW5
-    #NET "SW6"  LOC = P5 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L22N_3, Sch name = SW6
-    #NET "SW7"  LOC = P8 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L23P_3, Sch name = SW7
+    #NET "SW0"  LOC = V5 #| IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L13N_3, Sch name = SW0
+    #NET "SW1"  LOC = U4 #| IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L18P_3, Sch name = SW1
+    #NET "SW2"  LOC = V3 #| IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L18N_3, Sch name = SW2
+    #NET "SW3"  LOC = P4 #| IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L21P_3, Sch name = SW3
+    #NET "SW4"  LOC = R4 #| IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L21N_3, Sch name = SW4
+    #NET "SW5"  LOC = P6 #| IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L22P_3, Sch name = SW5
+    #NET "SW6"  LOC = P5 #| IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L22N_3, Sch name = SW6
+    #NET "SW7"  LOC = P8 #| IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L23P_3, Sch name = SW7
 
 ## LEDs
-    #NET "LED0"  LOC = W3 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L9P_3, Sch name = LD0
-    #NET "LED1"  LOC = Y4 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L7N_3, Sch name = LD1
-    #NET "LED2"  LOC = Y1 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L2N_3, Sch name = LD2
-    #NET "LED3"  LOC = Y3 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L8P_3, Sch name = LD3
-    #NET "LED4"  LOC = AB4 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L12N_3, Sch name = LD4
-    #NET "LED5"  LOC = W1  | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L9N_3, Sch name = LD5
-    #NET "LED6"  LOC = AB3 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L8N_3, Sch name = LD6
-    #NET "LED7"  LOC = AA4 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L12P_3, Sch name = LD7
+    #NET "LED0"  LOC = W3 #| IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L9P_3, Sch name = LD0
+    #NET "LED1"  LOC = Y4 #| IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L7N_3, Sch name = LD1
+    #NET "LED2"  LOC = Y1 #| IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L2N_3, Sch name = LD2
+    #NET "LED3"  LOC = Y3 #| IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L8P_3, Sch name = LD3
+    #NET "LED4"  LOC = AB4 #| IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L12N_3, Sch name = LD4
+    #NET "LED5"  LOC = W1  #| IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L9N_3, Sch name = LD5
+    #NET "LED6"  LOC = AB3 #| IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L8N_3, Sch name = LD6
+    #NET "LED7"  LOC = AA4 #| IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L12P_3, Sch name = LD7
 
 ## GYR LEDs
     #NET "LDT1G"  LOC = T7 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L10N_3, Sch name = LDT1-G
